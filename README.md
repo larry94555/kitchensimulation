@@ -52,7 +52,7 @@ If eclipse is not yet installed, instructions can be found [here](https://spring
 To load the application to eclipse, do the following:
 
 1. Start Eclipse. From Eclipse: File -> Import -> Maven -> Existing Maven Projects
-2. Browse to the top of the directory in step 1 and select the folder: kitchen-simulation-runner and Open.
+2. Browse to the top of the directory in step 1 and select the folder: kitchensimulation and Open.
 3. Click the Finish button.
 
 To build the application in eclipse, do the following:
