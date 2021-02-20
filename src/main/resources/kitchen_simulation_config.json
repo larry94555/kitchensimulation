@@ -1,5 +1,5 @@
 {
-	"orderJsonFile": "src/main/resources/dispatch_orders.json",
+	"orderJsonFile": "src/main/resources/orders_list.json",
 	"numTrials": 1,
 	"usingFullStatistics": false,
 	"ordersPerTrial": 0,
