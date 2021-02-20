@@ -1,0 +1,11 @@
+{
+	"orderJsonFile": "src/test/resources/test_dispatch_orders.json",
+    "orderPeriodInMilliseconds": 1000,
+    "ordersPerPeriod": 2,
+	"courierMinDelayInMilliseconds": 3000,
+	"courierMaxDelayInMilliseconds": 15000, 
+	"numTrials": 1,
+	"blocking":  false, 
+	"strategies" : [
+	]
+}

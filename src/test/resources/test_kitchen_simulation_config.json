@@ -1,0 +1,25 @@
+{
+	"orderJsonFile": "src/test/resources/test_dispatch_orders.json",
+	"numTrials": 1,
+	"ordersPerTrial": 3,
+	"blocking":  false,
+	"usingFullStatistics": true, 
+	"strategies" : [
+		{
+			"name": "matched",
+			"courierMatchedToOrder": true,
+			"orderPeriodInMilliseconds": 1000,
+			"ordersPerPeriod": 2,
+			"courierMinDelayInMilliseconds": 3000,
+			"courierMaxDelayInMilliseconds": 15000
+		},
+		{
+			"name": "first-in-first-out",
+			"courierMatchedToOrder": false,
+			"orderPeriodInMilliseconds": 1000,
+			"ordersPerPeriod": 2,
+			"courierMinDelayInMilliseconds": 3000,
+			"courierMaxDelayInMilliseconds": 15000
+		}
+	]
+}
