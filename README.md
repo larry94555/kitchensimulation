@@ -30,10 +30,8 @@ For building and running the application you need:
 
 To run the default application on the command line, do the following:
 
-1. Download ```kitchen-simulation-runner.tar.gz``` to the top of the directory to install
-2. ```tar xvfz kitchen-simulation-runner.tar.gz```
-3. ```cd kitchen-simulation-runner```
-4. ```java -jar kitchen-1.0-SNAPSHOT-jar-with-dependencies.jar kitchen_simulation_config.json```
+1. ```mvn clean install```
+2. ``` java -jar target/kitchen-1.0-SNAPSHOT-jar-with-dependencies.jar src/main/resources/kitchen_simulation_config.json```
 
 The simulation will start, show progress in the console, and show the results at the end. 
 
@@ -53,11 +51,9 @@ If eclipse is not yet installed, instructions can be found [here](https://spring
 
 To load the application to eclipse, do the following:
 
-1. Download ```kitchen-simulation-runner.tar.gz``` to the top of the directory to install
-2. ```tar xvfz kitchen-simulation-runner.tar.gz```
-3. Start Eclipse. From Eclipse: File -> Import -> Maven -> Existing Maven Projects
-4. Browse to the top of the directory in step 1 and select the folder: kitchen-simulation-runner and Open.
-5. Click the Finish button.
+1. Start Eclipse. From Eclipse: File -> Import -> Maven -> Existing Maven Projects
+2. Browse to the top of the directory in step 1 and select the folder: kitchen-simulation-runner and Open.
+3. Click the Finish button.
 
 To build the application in eclipse, do the following:
 
