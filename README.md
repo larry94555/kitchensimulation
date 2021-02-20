@@ -31,8 +31,7 @@ For building and running the application you need:
 To run the default application on the command line, do the following:
 
 1. ```mvn clean install```
-2. ```cd target```
-4. ```java -jar kitchen-1.0-SNAPSHOT-jar-with-dependencies.jar ../src/main/resources/kitchen_simulation_config.json```
+2. ``` java -jar target/kitchen-1.0-SNAPSHOT-jar-with-dependencies.jar src/main/resources/kitchen_simulation_config.json```
 
 The simulation will start, show progress in the console, and show the results at the end. 
 
