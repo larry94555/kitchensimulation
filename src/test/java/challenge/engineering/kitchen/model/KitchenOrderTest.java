@@ -34,7 +34,7 @@ class KitchenOrderTest {
     
     @Test
     void loadListTest() throws KitchenSimulationException {
-        List<KitchenOrder> orders = KitchenOrder.load("src/main/resources/dispatch_orders.json");
+        List<KitchenOrder> orders = KitchenOrder.load("src/main/resources/orders_list.json");
         assertEquals(132,orders.size());
         
         for (KitchenOrder ko : orders) {
